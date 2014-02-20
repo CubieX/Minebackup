@@ -1,0 +1,8 @@
+Changelog for Minebackup by CubieX
+----------------------------------
+V.5.9.4a
+- exchanged deprecated scheduler methods
+- merged Base plugin and Minebackup
+
+V.5.9.4
+- Initial forked version of ltguide from Bukkit
