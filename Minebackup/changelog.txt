@@ -1,5 +1,8 @@
 Changelog for Minebackup by CubieX
 ----------------------------------
+V.5.9.4b
+- fixed messages on saving and rearming emergency world save
+
 V.5.9.4a
 - exchanged deprecated scheduler methods
 - merged Base plugin and Minebackup

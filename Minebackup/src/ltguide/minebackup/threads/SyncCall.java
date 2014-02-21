@@ -77,7 +77,7 @@ public class SyncCall implements Callable<Boolean>
                   }
                }
                
-               Debug.info(MineBackup.logPrefix + "Saving world " + world.getName() + "...");
+               if(Debug.ON){Debug.info(MineBackup.logPrefix + "Saving world " + world.getName() + "...");}
                duration = System.currentTimeMillis();               
             }
             

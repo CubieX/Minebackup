@@ -35,7 +35,7 @@ public class MineBackup extends Base
    public static boolean saving = false;
    public static String worldSaveMsg = "Welten werden gespeichert. Bitte logg dich in wenigen Minuten wieder ein.";
    //=============================================
-   public static final String cubieVersion = "5.9.4a CubieX-Edition";// INCREASE THIS WITH EVERY CHANGE INSTEAD OF PLUGIN.yml VERSON! (is Cubiex Version -> command /mbck version)
+   public static final String cubieVersion = "5.9.4b CubieX-Edition";// INCREASE THIS WITH EVERY CHANGE INSTEAD OF PLUGIN.yml VERSON! (is Cubiex Version -> command /mbck version)
    //=============================================
 
    @Override

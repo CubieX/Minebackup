@@ -198,8 +198,11 @@ public class TaskProcess extends Thread {
                }
                else
                {
-                  aboveMinRAM = true; // reset blocking marker to enable emergency save again if free RAM is seen above critical value
-                  Debug.info("RAM is now above critical level. Re-armed emergency world saving. Have a nice day!");
+                  if(!aboveMinRAM)
+                  {
+                     aboveMinRAM = true; // reset blocking marker to enable emergency save again if free RAM is seen above critical value
+                     Debug.info("RAM is now above critical level. Re-armed emergency world saving. Have a nice day!");
+                  }
                }
             }
          }               
